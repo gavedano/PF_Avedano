@@ -4,52 +4,30 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .menu {
-  background-color: #ed1e24;
+  background-color: $primary-color;
 }
-
 .font_montserrat {
-  font-family: "Montserrat", sans-serif;
+  font-family: $font-type;
 }
-
 .color_font {
-  color: #ed1e24;
+  color: $primary-color;
 }
-
 .bg_black {
   background-color: black;
 }
-
 .animated-text {
-  background: linear-gradient(90deg, #ed1e24, white, white) 0 0/400% 100%;
+  background: linear-gradient(90deg, $primary-color, white, white) 0 0 / 400%
+    100%;
   animation: move-bg 4s infinite linear;
   color: transparent;
   -webkit-background-clip: text;
 }
-
 @keyframes move-bg {
   to {
     background-position: 400% 0;
   }
 }
 .border-color {
-  border-color: #ed1e24;
+  border-color: $primary-color;
 }
-
-.border_dotted {
-  border: 4px dotted #ed1e24;
-}
-
-.carousel-item img {
-  object-fit: scale-down;
-  height: 90vh;
-  width: 100%;
-}
-
-.nav-item :hover {
-  opacity: 0.65;
-  color: #ed1e24;
-}
-
-/*# sourceMappingURL=style.css.map */

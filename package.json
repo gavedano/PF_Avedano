@@ -1,0 +1,20 @@
+{
+  "name": "preentrega2_avedano",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavedano/PreEntrega2_Avedano.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gavedano/PreEntrega2_Avedano/issues"
+  },
+  "homepage": "https://github.com/gavedano/PreEntrega2_Avedano#readme"
+}

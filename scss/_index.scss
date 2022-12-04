@@ -1,0 +1,8 @@
+.border_dotted {
+  border: 4px dotted $primary-color;
+}
+.carousel-item img {
+  object-fit: scale-down;
+  height: 90vh;
+  width: 100%;
+}
